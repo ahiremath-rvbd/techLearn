@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
+    print "Here you Go...!"
     return "You are running server using docker container, WELCOME TO SDP"
 
 
