@@ -1,3 +1,3 @@
 import os
-os.system("pwd")
-print "Hey Anand"
+os.system("ls -l")
+print "TSET SDP"
