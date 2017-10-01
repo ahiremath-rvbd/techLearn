@@ -1,5 +1,5 @@
 #!/bin/sh
-docker login -e $anand.30hiremath@gmail.com -u $ahiremath -p $1pi05mcapes
+docker login -e $anand.30hiremath@gmail.com -u $ahiremath-rvbd -p $1pi05mcapes
 if [ "$TRAVIS_BRANCH" = "master" ]; then
     TAG="latest"
 else
